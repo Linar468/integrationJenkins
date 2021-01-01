@@ -51,7 +51,7 @@ public class SimpleTest {
     @Test
     public void loginClickWithCorrectCredentials(){
         chooseTaskSix();
-        fillInLogin("testerr");
+        fillInLogin("tester");
         fillInPassword("123-xyz");
         loginButtonClick();
         attachScreenshot();
